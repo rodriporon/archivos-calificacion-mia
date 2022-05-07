@@ -4,15 +4,15 @@
 
 #CREACION DE DISCOS
 mkdisk -size=112 -unit=M -path=/home/parte2/disco.dk
-mkdisk -size=1 -path="/home/parte1/eliminar.dk"
+mkdisk -size=1 -path=/home/parte1/eliminar.dk
 
 pause
 
 #ELIMINACION DE DISCOS
 #Debe de dar error por que no existe disco con ese nombre
-rmdisk -path="/home/a eliminar disco/no_existo.dk"
+rmdisk -path=/home/a eliminar disco/no_existo.dk
 
-rmdisk -path="/home/parte1/eliminar.dk"
+rmdisk -path=/home/parte1/eliminar.dk
 
 pause
 
